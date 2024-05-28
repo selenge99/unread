@@ -3,6 +3,28 @@
     box-sizing:0px;
     box-sizing: border-box;
 }
-.img{
-    img;
+
+.header-container{
+    width:100vw;
+    height:100px;
+    background-color: aqua;
+}
+
+.burger-menu{
+    display:block;
+    background-color: black;
+    width:25px;
+    height:3px;
+    margin:5px;
+    transition:all 0.3s ease;
+}
+#short{
+    width:20px
+}
+.vertical-line{
+    border-left: 6px solid green;
+    height:500px;
+    position:absolute;
+    left:50%;
+    margin-left: -3px;
 }
