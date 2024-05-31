@@ -1,6 +1,6 @@
 *{
     margin:0px;
-    box-sizing:0px;
+
     box-sizing: border-box;
 }
 .hero-container{
@@ -108,16 +108,94 @@
     width:1px
 }
 
-.inside-content{
-    display: grid;
-    grid-template-columns: 50px 50px;
-    justify-content: center;
+.med-content{
+    width:90%;
+    height:50%;
+    display:flex;
+    gap:100px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.content-image{
+    width:40%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://unread.today/files/ed579b98-8b6a-46a5-a2db-38fafd069ab2/530e016dcc4b4b2281684521a7a623b4.jpg");
+    border-radius: 30px;
+    margin-right: 0%;
+
+}
+
+.content-article{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width:40%;
+    height: 80%;
+}
+
+.content-article .new{
+    font:10px;
+    color:blue
+}
+.content-article h1{
+    font-size: 32px;
+    color: #fff;
+}
+
+.content-article .big-title{
+    font-size: 32px;
+    color:white;
+    font-weight: 600;
+}
+
+.this-week{
+    position: relative;
+    margin:auto;
+    width:1300px
+    
+}
+
+.row{
+    width:1600;
+    height:496;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    position: absolute;
+    top: -150px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+   
+
+}
+.article-container{
+   width: 231px;
+    height:342px;
+    border: 1px solid yellow;
+    background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/06c81a70abc3c6e36ebe81f34829ed10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.lead{
+    display:flex;
+
     align-items: center;
-    gap:50px;
-    width:100%;
-    height:300px;
-    background-color:yellow;
-    margin-top: 30px;
-    
-    
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.this_week_articles{
+    width: 
 }
