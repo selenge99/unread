@@ -294,17 +294,74 @@
 }
 
 .item{
-    width:200px;
-    height:200px;
+    padding:20px;
+    text-align: center;
     border:1px solid black
 }
-
 .container{
-    display:grid;
-    grid-template-columns: 1fr  1fr 1fr 1fr;
-    gap:10px
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap:10px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
 }
-.item_cart_1 {
-grid-column: 2span;
-grid-row: 2span;
+
+.item_cart_1{
+   grid-column: 1/3;
+   grid-row: 1/3;
+   width:548px;
+   height:361px;
+   background-image: url("https://unread.today/files/dca82359-3f6e-4c03-99ef-ef493c68a7aa/c61d50c4db647b5939503c71d2cb90be.jpg");
+   border-radius: 20px;
+}
+
+.item_cart_4{
+    width:264px;
+    height:323px;
+    grid-row: 2 span;
+    background-image: url("https://unread.today/files/dca82359-3f6e-4c03-99ef-ef493c68a7aa/ceeea287bfedd20b61f06a236854b5ac.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.item_cart_5{
+    grid-row: 2 span;
+    width:264px;
+    height:323px;
+    background-image: url("https://unread.today/files/e8e08e0b-2c4f-4f62-83e2-43a512c166d6/bae4a1bc2f0c3265addd5badd790488e.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.item_cart_6{
+    width: 264px;
+    height:234px;
+    background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/87c6713d7876ac1899e20c13ac8b1974.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+.item_cart_7{
+    width:264px;
+    height:234px;
+    background-image: url("https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/12e9783329d71a9f343d203c052e4d98.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.item_cart_2{
+    width:264px;
+    height:271px;
+    background-image: url("https://unread.today/files/44/75288f9a6f654884726db5e0458cbdef.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.item_cart_3{
+    width:264px;
+    height:271px;
+    background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/9dc16b608bc499d627cb6675b231a0ff.png");
+    background-size: cover;
+    border-radius: 20px;
 }
